@@ -1,0 +1,55 @@
+body {
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+
+.box_container {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: auto;
+    max-height: auto;
+    position: absolute;
+    margin: 0 auto;
+    background-color: linen;
+    left: 5%;
+}
+
+.red {
+    display: inline-block;
+    /* border: 4px solid black; */
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    max-width: 200px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.black {
+    display: inline-block;
+    /* border: 4px solid black; */
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    max-width: 200px;
+    position: relative;
+    margin: 0px auto;
+}
+
+table {
+    width: 50%;
+    position: relative;
+    table-layout: fixed;
+    left: 25%;
+
+}
